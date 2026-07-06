@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="LoginScreen">
+  <grid id="main-panel" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="0" y="0" width="955" height="480"/>
+    </constraints>
+    <properties>
+      <background color="-15917286"/>
+    </properties>
+    <border type="empty" title=""/>
+    <children>
+      <component id="title-label" class="javax.swing.JLabel" binding="titleLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="44" style="1"/>
+          <foreground color="-2034946"/>
+          <horizontalAlignment value="0"/>
+          <text value="CodePath"/>
+        </properties>
+      </component>
+      <component id="subtitle-label" class="javax.swing.JLabel" binding="subtitleLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="13" style="0"/>
+          <foreground color="-2034946"/>
+          <horizontalAlignment value="0"/>
+          <text value="Find your path in tech"/>
+        </properties>
+      </component>
+      <component id="name-label" class="javax.swing.JLabel" binding="nameLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="12" style="0"/>
+          <foreground color="-2034946"/>
+          <horizontalAlignment value="0"/>
+          <text value="What's your name?"/>
+        </properties>
+      </component>
+      <component id="name-field" class="javax.swing.JTextField" binding="nameField">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15715027"/>
+          <caretColor color="-10177085"/>
+          <font name="Verdana" size="14" style="1"/>
+          <foreground color="-2034946"/>
+          <horizontalAlignment value="0"/>
+          <preferredSize width="300" height="44"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="start-button" class="javax.swing.JButton" binding="startButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15715027"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <font name="Verdana" size="14" style="1"/>
+          <foreground color="-2034946"/>
+          <opaque value="true"/>
+          <preferredSize width="300" height="44"/>
+          <text value="Get Started  →"/>
+        </properties>
+      </component>
+      <component id="error-label" class="javax.swing.JLabel" binding="errorLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="11" style="0"/>
+          <foreground color="-50116"/>
+          <horizontalAlignment value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ResultScreen">
+  <grid id="main-panel" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="0" y="0" width="965" height="560"/>
+    </constraints>
+    <properties>
+      <background color="-15520989"/>
+      <enabled value="false"/>
+      <foreground color="-1716155"/>
+    </properties>
+    <border type="empty" title=""/>
+    <children>
+      <component id="result-heading" class="javax.swing.JLabel" binding="resultHeading">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="17" style="1"/>
+          <foreground color="-2034946"/>
+          <horizontalAlignment value="0"/>
+          <text value="Great job, Name!"/>
+        </properties>
+      </component>
+      <component id="suggested-label" class="javax.swing.JLabel" binding="suggestedLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="12" style="0"/>
+          <foreground color="-2034946"/>
+          <horizontalAlignment value="0"/>
+          <text value="Your suggested career path is:"/>
+        </properties>
+      </component>
+      <component id="career-icon" class="javax.swing.JLabel" binding="careerIcon">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1838593"/>
+          <font name="Segoe UI" size="36" style="0"/>
+          <foreground color="-16337196"/>
+          <horizontalAlignment value="0"/>
+          <text value="💡"/>
+        </properties>
+      </component>
+      <component id="career-title" class="javax.swing.JLabel" binding="careerTitle">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-14991050"/>
+          <enabled value="false"/>
+          <font name="Verdana" size="28" style="1"/>
+          <foreground color="-10693202"/>
+          <horizontalAlignment value="0"/>
+          <text value="Web Development"/>
+        </properties>
+      </component>
+      <component id="career-description" class="javax.swing.JLabel" binding="careerDescription">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="12" style="1"/>
+          <foreground color="-2034946"/>
+          <horizontalAlignment value="0"/>
+          <preferredSize width="460" height="80"/>
+          <text value="Description goes here"/>
+        </properties>
+      </component>
+      <component id="skills-button" class="javax.swing.JButton" binding="skillsButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="10" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15681151"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <font name="Verdana" size="13" style="1"/>
+          <foreground color="-1"/>
+          <opaque value="true"/>
+          <preferredSize width="300" height="44"/>
+          <text value="View Skills Needed"/>
+        </properties>
+      </component>
+      <component id="roadmap-button" class="javax.swing.JButton" binding="roadmapButton">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15681151"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <font name="Verdana" size="13" style="1"/>
+          <foreground color="-2034946"/>
+          <opaque value="true"/>
+          <preferredSize width="300" height="44"/>
+          <text value="View Learning Roadmap"/>
+        </properties>
+      </component>
+      <component id="retake-button" class="javax.swing.JButton" binding="retakeButton">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15681151"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <font name="Verdana" size="12" style="2"/>
+          <foreground color="-2034946"/>
+          <opaque value="true"/>
+          <preferredSize width="300" height="34"/>
+          <text value="↩  Retake Quiz"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

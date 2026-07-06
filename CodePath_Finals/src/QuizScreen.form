@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="QuizScreen">
+  <grid id="main-panel" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="0" y="0" width="953" height="580"/>
+    </constraints>
+    <properties>
+      <background color="-15917286"/>
+    </properties>
+    <border type="empty" title=""/>
+    <children>
+      <component id="progress-bar" class="javax.swing.JProgressBar" binding="progressBar">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15681151"/>
+          <borderPainted value="false"/>
+          <foreground color="-1245707"/>
+          <maximum value="100"/>
+          <minimum value="0"/>
+          <preferredSize width="520" height="10"/>
+          <stringPainted value="false"/>
+          <value value="0"/>
+        </properties>
+      </component>
+      <component id="greeting-label" class="javax.swing.JLabel" binding="greetingLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="24" style="1"/>
+          <foreground color="-986896"/>
+          <horizontalAlignment value="0"/>
+          <text value="Hello, Name!"/>
+        </properties>
+      </component>
+      <component id="counter-label" class="javax.swing.JLabel" binding="counterLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1707777"/>
+          <font name="Verdana" size="11" style="0"/>
+          <foreground color="-5921371"/>
+          <horizontalAlignment value="0"/>
+          <text value="Question 1 of 15"/>
+        </properties>
+      </component>
+      <component id="question-label" class="javax.swing.JLabel" binding="questionLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Verdana" size="18" style="1"/>
+          <foreground color="-9508937"/>
+          <horizontalAlignment value="0"/>
+          <preferredSize width="520" height="46"/>
+          <text value="Question goes here"/>
+        </properties>
+      </component>
+      <component id="btn-a" class="javax.swing.JButton" binding="btnA">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15520989"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <font name="Verdana" size="14" style="0"/>
+          <foreground color="-986896"/>
+          <horizontalAlignment value="10"/>
+          <opaque value="true"/>
+          <preferredSize width="520" height="48"/>
+          <text value="A)  Answer choice A"/>
+        </properties>
+      </component>
+      <component id="btn-b" class="javax.swing.JButton" binding="btnB">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15520989"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <font name="Verdana" size="14" style="0"/>
+          <foreground color="-986896"/>
+          <horizontalAlignment value="10"/>
+          <opaque value="true"/>
+          <preferredSize width="520" height="48"/>
+          <text value="B)  Answer choice B"/>
+        </properties>
+      </component>
+      <component id="btn-c" class="javax.swing.JButton" binding="btnC">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="0" bottom="5" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15520989"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <font name="Verdana" size="14" style="0"/>
+          <foreground color="-986896"/>
+          <horizontalAlignment value="10"/>
+          <opaque value="true"/>
+          <preferredSize width="520" height="48"/>
+          <text value="C)  Answer choice C"/>
+        </properties>
+      </component>
+      <component id="btn-d" class="javax.swing.JButton" binding="btnD">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15520989"/>
+          <borderPainted value="false"/>
+          <focusPainted value="false"/>
+          <font name="Verdana" size="14" style="0"/>
+          <foreground color="-986896"/>
+          <horizontalAlignment value="10"/>
+          <opaque value="true"/>
+          <preferredSize width="520" height="48"/>
+          <text value="D)  Answer choice D"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
